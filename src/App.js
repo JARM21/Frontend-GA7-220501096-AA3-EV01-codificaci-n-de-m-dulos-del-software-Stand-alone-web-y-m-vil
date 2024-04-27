@@ -19,7 +19,6 @@ function App() {
             <Route path='/edit-cliente/:id' element={<AddClienteComponent/>}></Route>
           </Routes>
         </div>
-        <FooterComponent/>
       </BrowserRouter>
     </div>
   );
